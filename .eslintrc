@@ -1,0 +1,53 @@
+{
+  "env": {
+    "browser": true,
+    "es2023": true
+  },
+  "globals": {
+    "wx": true,
+    "App": true,
+    "Page": true,
+    "getCurrentPages": true,
+    "getApp": true,
+    "Component": true,
+    "requirePlugin": true,
+    "requireMiniProgram": true,
+    "IAppOption": true
+  },
+  "extends": [
+    "eslint:recommended"
+  ],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaVersion": 2018,
+    "sourceType": "module"
+  },
+  "plugins": [
+    "@typescript-eslint"
+  ],
+  "rules": {
+    "array-callback-return": "warn",
+    "camelcase": "warn",
+    "curly": "warn",
+    "eqeqeq": "warn",
+    "no-console": "error",
+    "no-lone-blocks": "warn",
+    "no-unexpected-multiline": "warn",
+    "no-unused-vars": "off",
+    "no-useless-concat": "warn",
+    "no-useless-escape": "warn",
+    "no-void": "warn",
+    "prefer-rest-params": "off",
+    "quotes": [
+      "warn",
+      "double",
+      {
+        "allowTemplateLiterals": true
+      }
+    ],
+    "semi": [
+      "warn",
+      "always"
+    ]
+  }
+}

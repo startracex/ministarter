@@ -1,0 +1,13 @@
+{
+  "name": "ui",
+  "version": "0.0.0",
+  "main": "index.js",
+  "description": "",
+  "scripts": {
+    "build": "tsc"
+  },
+  "private": true,
+  "keywords": [],
+  "author": "startracex",
+  "license": "MIT"
+}
