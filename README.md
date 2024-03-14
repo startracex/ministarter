@@ -2,20 +2,29 @@
 
 Miniprogram starter
 
-Type support
+## Type support
 
 - Typescript
 
 - miniprogram-api-typings
 
-Lint and format
+## Lint and format
 
 - ESLint
 
 - Prettier
 
-Npm integration
+## Npm integration
 
 - Npm package (fmtime)
 
 - Local package
+
+### Build npm
+
+weixin-devtools: Tools -> Build npm
+
+## Packages
+
+- miniprogram
+- packages/\*
