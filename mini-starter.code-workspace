@@ -1,0 +1,29 @@
+{
+  "folders": [
+    {
+      "name": "Root",
+      "path": ".",
+    },
+    {
+      "name": "Mini program",
+      "path": "miniprogram",
+    },
+  ],
+  "settings": {
+    "cSpell.words": [
+      "camelcase",
+      "fmtime",
+      "miniprogram",
+      "Shiro",
+      "startracex",
+      "wechat",
+      "weixin",
+    ],
+    "files.exclude": {
+      ".git": true,
+      "miniprogram_npm": true,
+      "node_modules": true,
+      "wx-types.d.ts": true,
+    },
+  },
+}
