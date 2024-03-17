@@ -1,8 +1,11 @@
 {
-  "pages": ["pages/index/index", "pages/logs/logs"],
+  "pages": ["pages/index/index"],
   "window": {
     "navigationBarTextStyle": "black",
     "navigationStyle": "custom"
+  },
+  "usingComponents": {
+    "nav-bar": "components/nav-bar"
   },
   "style": "v2",
   "rendererOptions": {
